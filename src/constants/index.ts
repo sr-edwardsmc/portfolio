@@ -15,7 +15,7 @@ import {
   docker,
   leventy,
   clarity,
-  tripguide,
+  portfolio,
   threejs,
   globant,
   gorilla,
@@ -213,12 +213,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Levety App",
+    name: "Leventy App",
     description:
       "Ticketing management platform created for real-world usage with different customers from Colombia, focus on live events and concerts",
     tags: [
       {
-        name: "next",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
@@ -243,37 +243,53 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "wagmi + viem",
+        name: "wagmi",
         color: "green-text-gradient",
       },
       {
-        name: "solidity",
+        name: "viem",
         color: "pink-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "hardhat",
+        color: "green-text-gradient",
       },
     ],
     image: clarity,
     source_code_link: "https://github.com/sr-edwardsmc/clarity-governance",
   },
   {
-    name: "Trip Guide",
+    name: "Personal Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Personal portfolio website to showcase my skills and projects as a fullstack web3 developer, including animations and 3D models",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind-css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react-three-fiber",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "webgl",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "react-framer-motion",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/sr-edwardsmc/portfolio",
   },
 ];
 

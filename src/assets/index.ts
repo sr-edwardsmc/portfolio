@@ -21,7 +21,7 @@ import threejs from "./tech/threejs.svg";
 
 import leventy from "./projects/leventy.png";
 import clarity from "./projects/clarity.png";
-import tripguide from "./tripguide.png";
+import portfolio from "./projects/portfolio.png";
 
 import gorilla from "./company/gorilla.jpeg";
 import leantech from "./company/leantech.jpeg";
@@ -51,7 +51,7 @@ export {
   threejs,
   clarity,
   leventy,
-  tripguide,
+  portfolio,
   gorilla,
   leantech,
   globant,
