@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -17,16 +18,16 @@ function About() {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm skilled software developer with 8 years of experience. I have
+          I'm skilled software developer with 11 years of experience. I have
           experience in building web applications and services using modern
-          technologies like React, Node.js, TypeScript, Express, MongoDB,
+          technologies like React.js, Node.js, TypeScript, Express, MongoDB,
           PostgreSQL. I'm also interested in blockchain technologies and have
           experience in building smart contracts and decentralized applications
-          using Solidity, Web3.js, Ethers.js, Hardhat, Truffle. I'm quick
-          learner and always open to new technologies and challenges, I like to
-          collaborate closely with clients to create efficient, robust and
-          scalable solutions that solve their business needs. Let's work
-          together to build something great!
+          using Solidity, Web3.js, Ethers.js, Wagmi, Viem, Hardhat, Truffle and
+          more. I'm quick learner and always open to new technologies and
+          challenges, I like to collaborate closely with clients to create
+          efficient, robust and scalable solutions that solve their business
+          needs. Let's work together to build something great!
         </motion.p>
 
         <div className="mt-20 flex flex-wrap gap-10">
@@ -39,5 +40,4 @@ function About() {
   );
 }
 
-// eslint-disable-next-line react-refresh/only-export-components
 export default SectionWrapper(About, "about");

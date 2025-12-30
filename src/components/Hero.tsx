@@ -18,8 +18,8 @@ function Hero() {
             Hi, I'm <span className="text-[#915eff]">Edward</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop web3 applications and smart contracts, user interfaces and
-            experiences. I'm a fullstack engineer with a focus on the frontend.
+            Engineer building smart contracts and scalable Web3 applications
+            with a strong focus on frontend architecture and user experience.
           </p>
         </div>
       </div>
