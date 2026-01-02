@@ -1,7 +1,9 @@
 /* eslint-disable react-refresh/only-export-components */
+import { lazy } from "react";
 import { technologies } from "../constants";
 import { SectionWrapper } from "../hoc";
-import BallCanvas from "./canvas/Ball";
+
+const BallCanvas = lazy(() => import("./canvas/Ball"));
 
 function Tech() {
   return (

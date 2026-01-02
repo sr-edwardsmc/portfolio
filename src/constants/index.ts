@@ -49,7 +49,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Bloackchain Developer",
+    title: "Blockchain Developer",
     icon: mobile,
   },
   {

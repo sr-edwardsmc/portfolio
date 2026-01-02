@@ -1,12 +1,13 @@
 /* eslint-disable react-refresh/only-export-components */
-import { ChangeEvent, useRef, useState } from "react";
+import { ChangeEvent, lazy, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+
+const EarthCanvas = lazy(() => import("./canvas/Earth"));
 
 const Contact = () => {
   const formRef = useRef<HTMLFormElement>(null);
@@ -39,9 +40,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Edward Monsalve",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "edwardm0213@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
