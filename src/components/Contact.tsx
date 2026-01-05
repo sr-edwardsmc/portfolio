@@ -34,7 +34,7 @@ const Contact = () => {
     const { name, value } = e.target;
     setForm((prev) => ({
       ...prev,
-      [name]: sanitizeInput(value),
+      [name]: value,
     }));
 
     setErrors((prev) => ({
@@ -86,11 +86,11 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
-          from_name: form.name,
+          from_name: sanitizeInput(form.name),
           to_name: "Edward Monsalve",
-          from_email: form.email,
+          from_email: sanitizeInput(form.email),
           to_email: import.meta.env.VITE_APP_EMAILJS_TO_EMAIL,
-          message: form.message,
+          message: sanitizeInput(form.message),
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       );

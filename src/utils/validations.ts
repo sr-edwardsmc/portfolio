@@ -12,5 +12,6 @@ export const validateMessage = (message: string): boolean => {
 };
 
 export const sanitizeInput = (input: string): string => {
-  return input.trim().slice(0, 5000);
+  // Only trim leading/trailing whitespace, preserve all internal spaces
+  return input.slice(0, 5000).trim();
 };
