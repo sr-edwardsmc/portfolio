@@ -11,7 +11,6 @@ export default defineConfig({
   plugins: [react(), visualizer({ open: true, filename: "dist/stats.html" })],
   build: {
     rollupOptions: {
-      external: ["three"],
       output: {
         manualChunks(id) {
           if (id.includes("node_modules")) {
