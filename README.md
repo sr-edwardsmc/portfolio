@@ -32,7 +32,7 @@ This portfolio demonstrates my expertise in:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/personal-portfolio.git
+git clone https://github.com/sr-edwardsmc/portfolio.git
 
 # Install dependencies
 npm install
@@ -47,7 +47,7 @@ Feel free to reach out for collaborations or opportunities!
 
 - Email: edward.monsalvec@gmail.com
 - LinkedIn: [Profile](https://linkedin.com/in/edward-monsalve-4104/)
-- Portfolio: [Live Site](https://edwardmonsalve.live)
+- Portfolio: [Live Site](https://edwardmonsalve.tech)
 
 ---
 
