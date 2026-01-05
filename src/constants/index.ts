@@ -169,7 +169,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Senior Frontend Developer",
     company_name: "Globant",
     icon: globant,
     iconBg: "#E6DEDD",
