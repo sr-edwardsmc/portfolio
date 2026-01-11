@@ -22,6 +22,7 @@ import {
   leantech,
   revelo,
   galaxy,
+  tictactoe,
 } from "../assets";
 
 export const navLinks = [
@@ -122,8 +123,8 @@ const experiences = [
     date: "August 2022 - December 2025",
     points: [
       "Developing and maintaining Web3 applications using Typescript, React.js, Node.js, API Rest, GraphQL, Wagmi Viewm, AWS and other related technologies.",
-      "I specialize in developing various web solutions for the VisionTrack division, where my role involves crafting dynamic, fully interactive user interfaces that leverage extensive datasets. ",
-      "Working on VisionTrack, data visualization tool, connecting different data-sources",
+      "I specialize in developing and leading various web solutions for the VisionTrack division, where my role involves crafting dynamic, fully interactive user interfaces that leverage extensive datasets. ",
+      "Working on data visualization tools, connecting different data-sources",
       "Industry: Data Visualization, Digital Assets & Cryptocurrencies",
     ],
   },
@@ -186,57 +187,19 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    testimonial: "",
+    name: "",
+    designation: "",
+    company: "",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Leventy App",
-    description:
-      "Ticketing management platform created for real-world usage with different customers from Colombia, focus on live events and concerts",
-    tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "postgres",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: leventy,
-    source_code_link: "https://github.com/sr-edwardsmc/leventy",
-  },
-  {
     name: "Clarity Governance",
     description:
-      "Web3 application + smart contracts showcasing a real use-case to show how governance protocols works within blockchains",
+      "A Web3 application with smart contracts that demonstrates a real-world implementation of on-chain governance protocols.",
     tags: [
       {
         name: "react",
@@ -261,6 +224,27 @@ const projects = [
     ],
     image: clarity,
     source_code_link: "https://github.com/sr-edwardsmc/clarity-governance",
+  },
+  {
+    name: "Leventy App",
+    description:
+      "Ticketing management platform created for real-world usage with different customers from Colombia, focus on live events and concerts",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgres",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: leventy,
+    source_code_link: "https://github.com/sr-edwardsmc/leventy",
   },
   {
     name: "Personal Portfolio",
@@ -290,6 +274,35 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/sr-edwardsmc/portfolio",
+  },
+  {
+    name: "Multiplayer Triki",
+    description:
+      "Multiplayer and realtime Tic Tac Toe game with a futuristic mobile-first design. Code implemented as monorepo sharing types and utilities between server and client",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pnpm-workspaces",
+        color: "green-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tictactoe,
+    source_code_link: "https://github.com/sr-edwardsmc/tic-tac-toe",
   },
 ];
 

@@ -22,6 +22,7 @@ import threejs from "./tech/threejs.svg";
 import leventy from "./projects/leventy.png";
 import clarity from "./projects/clarity.png";
 import portfolio from "./projects/portfolio.png";
+import tictactoe from "./projects/tictactoe.png";
 
 import gorilla from "./company/gorilla.jpeg";
 import leantech from "./company/leantech.jpeg";
@@ -52,6 +53,7 @@ export {
   clarity,
   leventy,
   portfolio,
+  tictactoe,
   gorilla,
   leantech,
   globant,
